@@ -2,8 +2,8 @@ name: Generate Test Report Table (Unity)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 13 * * *"  # 1pm UTC = 5am PST / 6am PDT, 6 hours after testapps run
+#  schedule:
+#    - cron: "0 13 * * *"  # 1pm UTC = 5am PST / 6am PDT, 6 hours after testapps run
 
 env:
   GITHUB_TOKEN: ${{ github.token }}
